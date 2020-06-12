@@ -1,6 +1,6 @@
 # News-API-Ajax-
 it shows news and can select from categories like sports , health , technology .. and can follow links to news to read more  ..
-and it show current location and current time and date 
+and it shows current location and current time and date 
 
 
 ![screencapture-file-E-route-apis-js-index-html-2020-06-13-01_30_39](https://user-images.githubusercontent.com/61987317/84554105-a9549580-ad16-11ea-9acd-be5f4d6085ac.png)
