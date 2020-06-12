@@ -1,0 +1,28 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.time-container{
+    background-image: linear-gradient(#f5f5f5, rgba(180, 176, 176, 0.7));
+    align-items: center;
+}
+#place{
+    color: #fa3c3a;
+}
+
+a{
+    text-decoration:none;
+    
+}
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+
+  }
+ 
+ .navbar-brand{
+     color: #fa3c3a !important;
+     font-weight: 700;
+ }
+ .nav-link:hover{
+    color: #f76f6d !important;
+ }

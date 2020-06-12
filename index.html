@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>News Api</title>
+    <link rel="icon" href="images/api.svg">
+</head>
+
+<body onload=display_ct()>
+
+
+    <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="">News API</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul id="nav" class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-home">s</i>general</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">health</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">business</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">science</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">technology</a>
+                </li>
+               -->
+            </ul>
+        </div>
+    </nav>
+
+    <div class=" mt-5 time-container col-md-12 text-center ">
+        <div class="row  pt-3 d-flex justify-content-around align-items-center">
+
+            <h4 id="current-time"></h4>
+            <h6 id="place"></h6>
+        </div>
+
+    </div>
+
+    <div class="container test ">
+        <div class="row p-4 m-2" id="postrow">
+        </div>
+    </div>
+    <hr>
+    <span>copy right &#169 2020</span>
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
